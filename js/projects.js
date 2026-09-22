@@ -830,6 +830,184 @@
         '</ul>' +
         '<h4>Tech Stack</h4>' +
         '<p>n8n, Shopify Admin API, Google Sheets.</p>'
+    },
+    {
+      id: "ai-hr-recruiting-automation",
+      title: "AI-Powered HR Recruiting Automation: Job Posting to Candidate Evaluation & Hiring Decision (n8n)",
+      category: "AI Agents",
+      image: "images/AI-Powered_HR_Recruiting_Automation_Job_Posting_to_Candidate_Evaluation___Hiring_Decision__n8n_.png",
+      descriptionHtml:
+        '<p>Hiring teams lose hours every week on repetitive recruiting admin — writing job descriptions from scratch, manually screening every resume that comes in, and re-typing candidate scores into a spreadsheet before anyone even gets to the &ldquo;should we interview this person&rdquo; conversation. This workflow automates that entire pipeline from end to end, so HR only steps in for the decisions that actually need a human.</p>' +
+        '<p>The system starts the moment a hiring manager submits a job request. It validates the request, uses AI to draft a complete job description, and routes it to HR for approval before automatically publishing it live. Once the listing is public, incoming applications are collected and each resume is processed automatically — including OCR fallback for scanned or image-based resumes that would otherwise fail to parse. Every candidate is then evaluated by two independent AI providers scoring against the job requirements, producing a consistent, bias-resistant fit rating instead of a single model&rsquo;s opinion.</p>' +
+        '<p>Results land in a daily digest sent straight to HR in Slack, with one-click buttons to mark each candidate as Interview, Reject, or Request Info. Clicking a button instantly updates the candidate&rsquo;s record in Airtable and replaces the Slack message with a confirmation — no tab-switching, no manual data entry, no lost decisions buried in a spreadsheet.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<ul>' +
+        '<li>Slow, inconsistent job description writing</li>' +
+        '<li>Resumes that get lost or skipped because reviewing them by hand doesn&rsquo;t scale</li>' +
+        '<li>Hiring decisions that live in someone&rsquo;s head instead of a system anyone on the team can check</li>' +
+        '</ul>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>n8n — workflow automation and orchestration</li>' +
+        '<li>Dual AI providers — independent resume scoring for a bias-resistant fit rating</li>' +
+        '<li>OCR — fallback parsing for scanned or image-based resumes</li>' +
+        '<li>Slack — interactive daily digest with one-click hiring decisions</li>' +
+        '<li>Airtable — candidate records and hiring pipeline database</li>' +
+        '</ul>'
+    },
+    {
+      id: "ai-invoice-3way-match",
+      title: "AI-Powered Invoice 3-Way Match Automation",
+      category: "Ops Automation",
+      image: "images/AI-Powered_Invoice_3-Way_Match_Automation.png",
+      descriptionHtml:
+        '<p>Automates the invoice approval process for accounts payable teams by verifying that every invoice matches its purchase order and goods receipt before it gets paid — catching billing errors, overcharges, and duplicate invoices automatically, without manual cross-checking.</p>' +
+        '<p>The system reads incoming invoices (PDF or scanned) directly from an email inbox, extracts the key data using OCR and AI, and cross-references it against purchase orders and delivery records. Invoices that match perfectly are approved automatically; anything with a discrepancy — wrong quantity, wrong price, missing paperwork, or a duplicate submission — is flagged and routed to a human reviewer with a clear, itemized explanation of exactly what&rsquo;s wrong. A background reconciliation process also re-checks flagged invoices once missing delivery confirmations come in, so nothing stays stuck in limbo waiting on paperwork that later arrives.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<ul>' +
+        '<li>Eliminates manual 3-way matching, a routine but time-consuming and error-prone finance task</li>' +
+        '<li>Reduces the risk of overpaying suppliers or approving duplicate invoices</li>' +
+        '<li>Gives finance teams a full audit trail of every automated decision, while only pulling in a human when a judgment call is actually needed</li>' +
+        '</ul>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>n8n — workflow orchestration</li>' +
+        '<li>OCR + AI — invoice data extraction from PDFs and scans</li>' +
+        '<li>Email inbox trigger — automatic invoice intake</li>' +
+        '<li>Background reconciliation — re-checks flagged invoices as missing paperwork arrives</li>' +
+        '</ul>'
+    },
+    {
+      id: "decision-maker-contact-finder",
+      title: "Decision-Maker Contact Finder: Automated Franchise Contact Discovery",
+      category: "Sales Ops",
+      image: "images/Decision-Maker_Contact_Finder_Automated_Franchise_Contact_Discovery.png",
+      descriptionHtml:
+        '<p>Automated contact discovery that finds verified decision-maker emails the moment a qualified franchise lead is confirmed. Once a franchise company has been found and confirmed as a strong match, this system automatically finds the actual people you&rsquo;d need to talk to — owners, presidents, vice presidents, and other decision-makers at that company — along with their email addresses, job titles, and seniority level. There&rsquo;s no manual searching involved: the moment a new qualified franchise is confirmed, this automation picks it up in the background and finds the right contacts on its own.</p>' +
+        '<p>The system includes a real spending safeguard, tracking its own usage against a monthly budget and automatically pausing itself before going over — no manual monitoring required, no risk of a surprise bill. Every contact is checked against existing records before being saved, so the same person never gets added twice even if a company gets processed more than once, with automatic retry handling for temporary connection issues and clear alerts if something genuinely needs human attention.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<p>Finding the right person to contact at a company is usually the single most time-consuming part of outbound sales — hours spent guessing job titles, searching LinkedIn, and verifying emails one at a time. This automation turns a list of promising companies into a list of real, verified people with real contact information, automatically and safely, with zero manual research required.</p>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>Hunter.io — contact database and email verification</li>' +
+        '<li>n8n — workflow automation</li>' +
+        '<li>Airtable — deduplicated contact records</li>' +
+        '<li>Automated budget tracking — self-pausing spend safeguard</li>' +
+        '</ul>'
+    },
+    {
+      id: "enterprise-lead-capture-crm",
+      title: "Enterprise Lead Capture & CRM Automation",
+      category: "Sales Ops",
+      image: "images/Enterprise_Lead_Capture___CRM_Automation.png",
+      descriptionHtml:
+        '<p>A 13-stage n8n pipeline that turns raw form submissions into scored, deduplicated, sales-ready CRM contacts — with zero manual data entry.</p>' +
+        '<p>Most lead automations are just a webhook dumping form data into a spreadsheet — an approach that quietly creates duplicate contacts, lets spam and bot submissions through untouched, gives sales teams no visibility into why a lead is worth chasing, and loses data silently the moment an API call fails. This system was architected as thirteen distinct layers, each with a single clear responsibility, so it stays reliable, debuggable, and extendable as requirements grow: intake through a form fitted with hidden UTM tracking and a honeypot bot trap, structural validation, weighted spam and bot scoring, data normalization, a four-tier deduplication hierarchy (Submission ID &rarr; Email &rarr; Phone &rarr; Name/Company fingerprint), optional real-time email verification enrichment, a transparent 0&ndash;100 lead score with a full human-readable breakdown, tier-based routing, CRM sync that updates returning contacts in place rather than duplicating them, real-time Slack alerts with the full score breakdown, full lifecycle audit logging, a Dead Letter Queue for anything that fails persistently, and a validated test suite covering duplicates, spam, malformed data, and API failures.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<ul>' +
+        '<li>Sales teams drowning in unqualified junk with no way to trust the numbers in their CRM</li>' +
+        '<li>Leads disappearing without a trace the moment an API call or integration hiccups</li>' +
+        '</ul>' +
+        '<p>Because the core logic is CRM-agnostic, the same architecture can be adapted to HubSpot, Salesforce, Pipedrive, Zoho, or Microsoft Dynamics by swapping the CRM adapter layer — no rebuild required.</p>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>n8n — 13-stage workflow orchestration</li>' +
+        '<li>Tally — form intake with hidden UTM tracking and honeypot spam trap</li>' +
+        '<li>Hunter.io API — real-time email verification enrichment</li>' +
+        '<li>Airtable — CRM system of record with linked company records</li>' +
+        '<li>Slack — real-time qualified-lead alerts with full score breakdown</li>' +
+        '</ul>'
+    },
+    {
+      id: "franchise-lead-generation-qualifier",
+      title: "Franchise Lead Generation Automation: AI-Powered Franchise Company Finder & Qualifier",
+      category: "Sales Ops",
+      image: "images/Franchise_Lead_Generation_Automation_AI-Powered_Franchise_Company_Finder___Qualifier.png",
+      descriptionHtml:
+        '<p>Automated franchise lead generation that finds, verifies, and scores qualified franchise prospects. The system automatically searches a massive business database for franchise companies matching target criteria — for example, restaurant franchises in Texas, or fitness franchises in California — delivering qualified results in seconds instead of hours spent manually browsing business directories and copy-pasting company details into a spreadsheet.</p>' +
+        '<p>Finding companies is only half the challenge — not every search result is actually a franchise business. This automation uses AI to double-check every company it finds, analyzing the available business data to determine whether it&rsquo;s a genuine franchise brand or simply a local business that happened to match the search criteria, with every classification including a plain-language explanation so the process is never a black box. Each qualified lead is then scored on overall fit — factoring in location count, employee count, and industry match — so the strongest business opportunities automatically surface at the top of the list, with no manual review of every result required.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<p>Franchise lead generation traditionally means hours of manual research, guesswork, and inconsistent qualification standards. This automation replaces that entire manual process with a system that finds, verifies, and ranks franchise prospects automatically — freeing up time to focus on outreach and closing deals instead of hunting for leads.</p>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>Apollo.io — business database search</li>' +
+        '<li>AI-powered lead qualification — franchise verification with plain-language reasoning</li>' +
+        '<li>n8n — workflow automation</li>' +
+        '<li>Airtable — scored lead database</li>' +
+        '</ul>'
+    },
+    {
+      id: "invoice-management-system",
+      title: "Automated Invoice Management System",
+      category: "Ops Automation",
+      image: "images/Invoice_Management_System.png",
+      descriptionHtml:
+        '<p>Turns a simple form submission into a fully processed, sent, and filed invoice — with zero manual work. Manually creating invoices is slow, error-prone, and easy to mess up: duplicate invoices get sent, files get lost in messy folders, and no one notices a failed email until the customer complains. This automation handles the entire invoice lifecycle, from the moment a request comes in to the moment the customer has a professional PDF invoice in their inbox.</p>' +
+        '<p>The system captures the request the moment someone submits an invoice request through an online form, pulls correct pricing and tax for every item automatically, and validates everything before an invoice is ever created — catching missing or incorrect data instantly and alerting a team member if something needs attention. A two-layer duplicate check (an exact-match check plus a smart &ldquo;possible duplicate&rdquo; check that flags suspicious near-matches for a human to confirm) protects the business from double-billing. Once validated, it generates a polished, branded PDF using a pre-built template, files it automatically into a Year &rarr; Month Google Drive folder structure, and emails it directly to the customer — with an instant Slack alert to the team if that email ever fails to send. Every invoice, duplicate catch, and email sent or failed is logged for a complete audit trail.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<ul>' +
+        '<li>Manual invoice creation prone to typos and pricing errors</li>' +
+        '<li>Duplicate invoices slipping through and damaging customer trust</li>' +
+        '<li>Invoices scattered across folders, emails, and desktops with no visibility into what was sent or failed</li>' +
+        '</ul>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>Tally — form intake</li>' +
+        '<li>Airtable — records management</li>' +
+        '<li>Google Docs + Drive — PDF generation and auto-organized Year/Month filing</li>' +
+        '<li>Gmail — invoice delivery</li>' +
+        '<li>Slack — team alerts on failures</li>' +
+        '</ul>'
+    },
+    {
+      id: "judgeme-review-escalation",
+      title: "AI-Powered Review Escalation & VIP Case Management — Judge.me Module",
+      category: "E-commerce",
+      image: "images/judgeme-review-escalation-case-management.png",
+      descriptionHtml:
+        '<p>An automation that turns a single bad product review into a fully-contextualized, prioritized support case — complete with customer spend history, complaint category, and an SLA countdown — with zero manual work.</p>' +
+        '<p>This module is one half of a two-part Escalation &amp; VIP Customer Case Management system built for a Shopify + monday.com business. It watches Judge.me (a product review app) in real time, and the moment a customer leaves a 2-star review or lower, it automatically builds a complete support case — cross-referencing the reviewer&rsquo;s order history, categorizing the complaint into one of eight standardized categories using AI, flagging VIP customers by lifetime spend, and assigning an SLA deadline — all without a human touching it, ready for a support team to act on immediately.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<p>Shopify has no native way to flag, categorize, or prioritize a bad product review — it just sits on the storefront, potentially for days, with no connection to who the customer actually is or how valuable they are to the business. This module closes that gap entirely: every bad review becomes a tracked, prioritized, fully-contextualized case the moment it&rsquo;s posted.</p>' +
+        '<h4>Key Technical Challenges Solved</h4>' +
+        '<ul>' +
+        '<li>Diagnosed and worked around a data-loss bug where HTTP Request and LLM Chain nodes silently discard prior item data mid-pipeline, requiring review and customer data to be explicitly rebuilt at each affected step</li>' +
+        '<li>Bypassed a broken native monday.com integration node by reverse-engineering monday&rsquo;s GraphQL API directly, including column-type-specific value structures (status labels, email objects, date objects)</li>' +
+        '<li>Designed a standardized, business-defined complaint category taxonomy and enforced it via structured AI output, so recurring problem types can be reliably tracked over time</li>' +
+        '</ul>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>n8n — workflow automation and orchestration</li>' +
+        '<li>Judge.me — review platform webhook trigger</li>' +
+        '<li>Cerebras (gpt-oss-120b) — high-speed LLM inference for complaint categorization</li>' +
+        '<li>Shopify Admin API — customer lookup and lifetime-spend verification</li>' +
+        '<li>monday.com GraphQL API — direct case creation, bypassing native connector limitations</li>' +
+        '</ul>'
+    },
+    {
+      id: "support-email-escalation",
+      title: "AI-Powered Support Email Escalation & VIP Case Management — Gmail Module",
+      category: "E-commerce",
+      image: "images/support-email-escalation-case-management.png",
+      descriptionHtml:
+        '<p>An automation that reads incoming support emails, filters out noise, and turns genuine customer complaints into fully-contextualized, prioritized cases — complete with spend history, complaint category, and an SLA countdown.</p>' +
+        '<p>This module is the other half of the same two-part Escalation &amp; VIP Customer Case Management system, built for a Shopify + monday.com business. It watches a support inbox in real time, uses AI to separate real customer complaints from newsletters, spam, and unrelated messages in a single pass, then builds a complete support case for every genuine complaint — cross-referencing order history, categorizing the issue, flagging VIP customers, and assigning an SLA deadline.</p>' +
+        '<h4>Problem It Solves</h4>' +
+        '<p>A support inbox mixes genuine customer complaints with marketing emails, notifications, and general inquiries — with no way to automatically separate signal from noise, let alone prioritize based on customer value. This module solves both problems at once: an AI filter keeps false complaints out entirely, while every real complaint becomes a tracked, prioritized case the moment it lands in the inbox.</p>' +
+        '<h4>Key Technical Challenges Solved</h4>' +
+        '<ul>' +
+        '<li>Combined two AI judgment calls — is this a complaint, and what category — into a single efficient model call instead of two separate AI steps, cutting latency and cost</li>' +
+        '<li>Diagnosed and worked around the same HTTP Request/LLM Chain data-loss bug, rebuilding standardized email data at each affected step</li>' +
+        '<li>Built a source-agnostic case-creation format shared with the parallel review-based workflow, so both feed the same monday.com board despite originating from completely different data shapes</li>' +
+        '</ul>' +
+        '<h4>Tools &amp; Technologies</h4>' +
+        '<ul>' +
+        '<li>n8n — workflow automation and orchestration</li>' +
+        '<li>Gmail Trigger — real-time inbox monitoring</li>' +
+        '<li>Cerebras (gpt-oss-120b) — combined complaint-detection and categorization</li>' +
+        '<li>Shopify Admin API — customer lookup and VIP determination</li>' +
+        '<li>monday.com GraphQL API — direct case creation</li>' +
+        '</ul>'
     }
   ];
 
