@@ -835,7 +835,7 @@
       id: "ai-hr-recruiting-automation",
       title: "AI-Powered HR Recruiting Automation: Job Posting to Candidate Evaluation & Hiring Decision (n8n)",
       category: "AI Agents",
-      image: "images/AI-Powered_HR_Recruiting_Automation_Job_Posting_to_Candidate_Evaluation___Hiring_Decision__n8n_.png",
+      image: "images/AI-Powered HR Recruiting Automation Job Posting to Candidate Evaluation & Hiring Decision (n8n).png",
       descriptionHtml:
         '<p>Hiring teams lose hours every week on repetitive recruiting admin — writing job descriptions from scratch, manually screening every resume that comes in, and re-typing candidate scores into a spreadsheet before anyone even gets to the &ldquo;should we interview this person&rdquo; conversation. This workflow automates that entire pipeline from end to end, so HR only steps in for the decisions that actually need a human.</p>' +
         '<p>The system starts the moment a hiring manager submits a job request. It validates the request, uses AI to draft a complete job description, and routes it to HR for approval before automatically publishing it live. Once the listing is public, incoming applications are collected and each resume is processed automatically — including OCR fallback for scanned or image-based resumes that would otherwise fail to parse. Every candidate is then evaluated by two independent AI providers scoring against the job requirements, producing a consistent, bias-resistant fit rating instead of a single model&rsquo;s opinion.</p>' +
@@ -859,7 +859,7 @@
       id: "ai-invoice-3way-match",
       title: "AI-Powered Invoice 3-Way Match Automation",
       category: "Ops Automation",
-      image: "images/AI-Powered_Invoice_3-Way_Match_Automation.png",
+      image: "images/AI-Powered Invoice 3-Way Match Automation.png",
       descriptionHtml:
         '<p>Automates the invoice approval process for accounts payable teams by verifying that every invoice matches its purchase order and goods receipt before it gets paid — catching billing errors, overcharges, and duplicate invoices automatically, without manual cross-checking.</p>' +
         '<p>The system reads incoming invoices (PDF or scanned) directly from an email inbox, extracts the key data using OCR and AI, and cross-references it against purchase orders and delivery records. Invoices that match perfectly are approved automatically; anything with a discrepancy — wrong quantity, wrong price, missing paperwork, or a duplicate submission — is flagged and routed to a human reviewer with a clear, itemized explanation of exactly what&rsquo;s wrong. A background reconciliation process also re-checks flagged invoices once missing delivery confirmations come in, so nothing stays stuck in limbo waiting on paperwork that later arrives.</p>' +
@@ -881,7 +881,7 @@
       id: "decision-maker-contact-finder",
       title: "Decision-Maker Contact Finder: Automated Franchise Contact Discovery",
       category: "Sales Ops",
-      image: "images/Decision-Maker_Contact_Finder_Automated_Franchise_Contact_Discovery.png",
+      image: "images/Decision-Maker Contact Finder Automated Franchise Contact Discovery.png",
       descriptionHtml:
         '<p>Automated contact discovery that finds verified decision-maker emails the moment a qualified franchise lead is confirmed. Once a franchise company has been found and confirmed as a strong match, this system automatically finds the actual people you&rsquo;d need to talk to — owners, presidents, vice presidents, and other decision-makers at that company — along with their email addresses, job titles, and seniority level. There&rsquo;s no manual searching involved: the moment a new qualified franchise is confirmed, this automation picks it up in the background and finds the right contacts on its own.</p>' +
         '<p>The system includes a real spending safeguard, tracking its own usage against a monthly budget and automatically pausing itself before going over — no manual monitoring required, no risk of a surprise bill. Every contact is checked against existing records before being saved, so the same person never gets added twice even if a company gets processed more than once, with automatic retry handling for temporary connection issues and clear alerts if something genuinely needs human attention.</p>' +
@@ -899,7 +899,7 @@
       id: "enterprise-lead-capture-crm",
       title: "Enterprise Lead Capture & CRM Automation",
       category: "Sales Ops",
-      image: "images/Enterprise_Lead_Capture___CRM_Automation.png",
+      image: "images/Enterprise Lead Capture & CRM Automation.png",
       descriptionHtml:
         '<p>A 13-stage n8n pipeline that turns raw form submissions into scored, deduplicated, sales-ready CRM contacts — with zero manual data entry.</p>' +
         '<p>Most lead automations are just a webhook dumping form data into a spreadsheet — an approach that quietly creates duplicate contacts, lets spam and bot submissions through untouched, gives sales teams no visibility into why a lead is worth chasing, and loses data silently the moment an API call fails. This system was architected as thirteen distinct layers, each with a single clear responsibility, so it stays reliable, debuggable, and extendable as requirements grow: intake through a form fitted with hidden UTM tracking and a honeypot bot trap, structural validation, weighted spam and bot scoring, data normalization, a four-tier deduplication hierarchy (Submission ID &rarr; Email &rarr; Phone &rarr; Name/Company fingerprint), optional real-time email verification enrichment, a transparent 0&ndash;100 lead score with a full human-readable breakdown, tier-based routing, CRM sync that updates returning contacts in place rather than duplicating them, real-time Slack alerts with the full score breakdown, full lifecycle audit logging, a Dead Letter Queue for anything that fails persistently, and a validated test suite covering duplicates, spam, malformed data, and API failures.</p>' +
@@ -922,7 +922,7 @@
       id: "franchise-lead-generation-qualifier",
       title: "Franchise Lead Generation Automation: AI-Powered Franchise Company Finder & Qualifier",
       category: "Sales Ops",
-      image: "images/Franchise_Lead_Generation_Automation_AI-Powered_Franchise_Company_Finder___Qualifier.png",
+      image: "images/Franchise Lead Generation Automation AI-Powered Franchise Company Finder & Qualifier.png",
       descriptionHtml:
         '<p>Automated franchise lead generation that finds, verifies, and scores qualified franchise prospects. The system automatically searches a massive business database for franchise companies matching target criteria — for example, restaurant franchises in Texas, or fitness franchises in California — delivering qualified results in seconds instead of hours spent manually browsing business directories and copy-pasting company details into a spreadsheet.</p>' +
         '<p>Finding companies is only half the challenge — not every search result is actually a franchise business. This automation uses AI to double-check every company it finds, analyzing the available business data to determine whether it&rsquo;s a genuine franchise brand or simply a local business that happened to match the search criteria, with every classification including a plain-language explanation so the process is never a black box. Each qualified lead is then scored on overall fit — factoring in location count, employee count, and industry match — so the strongest business opportunities automatically surface at the top of the list, with no manual review of every result required.</p>' +
@@ -940,7 +940,7 @@
       id: "invoice-management-system",
       title: "Automated Invoice Management System",
       category: "Ops Automation",
-      image: "images/Invoice_Management_System.png",
+      image: "images/Automated Invoice Management System.png",
       descriptionHtml:
         '<p>Turns a simple form submission into a fully processed, sent, and filed invoice — with zero manual work. Manually creating invoices is slow, error-prone, and easy to mess up: duplicate invoices get sent, files get lost in messy folders, and no one notices a failed email until the customer complains. This automation handles the entire invoice lifecycle, from the moment a request comes in to the moment the customer has a professional PDF invoice in their inbox.</p>' +
         '<p>The system captures the request the moment someone submits an invoice request through an online form, pulls correct pricing and tax for every item automatically, and validates everything before an invoice is ever created — catching missing or incorrect data instantly and alerting a team member if something needs attention. A two-layer duplicate check (an exact-match check plus a smart &ldquo;possible duplicate&rdquo; check that flags suspicious near-matches for a human to confirm) protects the business from double-billing. Once validated, it generates a polished, branded PDF using a pre-built template, files it automatically into a Year &rarr; Month Google Drive folder structure, and emails it directly to the customer — with an instant Slack alert to the team if that email ever fails to send. Every invoice, duplicate catch, and email sent or failed is logged for a complete audit trail.</p>' +
