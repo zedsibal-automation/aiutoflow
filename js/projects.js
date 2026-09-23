@@ -558,7 +558,7 @@
       id: "instagram-interactive-dm-workflow",
       title: "Instagram Interactive DM Workflow",
       category: "Sales Ops",
-      image: "images/Instagram Interactive DM Workflow.png",
+      image: "images/Instagram Interactive Dm Workflow.png",
       descriptionHtml:
         '<p>A branching, menu-driven Instagram DM automation that turns a single customer reply into a guided self-service conversation. Instead of a generic response, leads are given clickable options and routed down a personalized path based on what they&rsquo;re actually interested in.</p>' +
         '<h4>How It Works</h4>' +
@@ -585,7 +585,8 @@
       id: "responded-to-database-reactivation",
       title: "Responded to Database Reactivation — AI-Powered Intent Detection",
       category: "Sales Ops",
-      image: "images/Responded to Database Reactivation - AI-powered intent detection.png",
+      image: "images/Responded to database Reactivation - AI-powered intent detection that routes reactivated leads to sales the moment they reply positively..png
+",
       descriptionHtml:
         '<p>An AI-driven reactivation response handler that reads the sentiment/intent of a reply from a previously reactivated lead and instantly routes positive responses straight to the sales team — ensuring re-engaged leads are acted on the moment they show interest, not hours or days later.</p>' +
         '<h4>How It Works</h4>' +
@@ -695,7 +696,7 @@
       id: "monday-file-upload-drive-sync",
       title: "monday.com File Upload → Google Drive Auto-Archive & Sync",
       category: "Ops Automation",
-      image: "images/monday.com File Upload to Google Drive Auto-Archive & Sync.png",
+      image: "images/images/monday.com File Upload → Google Drive Auto-Archive & Sync.png",
       descriptionHtml:
         '<p>An n8n automation that automatically archives files uploaded to monday.com items into organized Google Drive folders, prevents duplicate folders and duplicate uploads, and writes the resulting Drive link back onto the board.</p>' +
         '<p>A supplier/procurement board on monday.com where each item can have files attached — invoices, spec sheets, product photos. Files uploaded to monday.com stay locked inside it with no easy way to back them up, browse them in bulk, or share a whole item&rsquo;s files as one link. This automation mirrors every upload into a structured Google Drive archive automatically, in real time.</p>' +
