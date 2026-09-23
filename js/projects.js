@@ -585,7 +585,7 @@
       id: "responded-to-database-reactivation",
       title: "Responded to Database Reactivation — AI-Powered Intent Detection",
       category: "Sales Ops",
-      image: "images/Responded to database Reactivation - AI-powered intent detection that routes reactivated leads to sales the moment they reply positively..png",
+      image: "images/Responded to database Reactivation - AI-powered intent detection that routes reactivated leads to sales the moment they reply positively.png",
       descriptionHtml:
         '<p>An AI-driven reactivation response handler that reads the sentiment/intent of a reply from a previously reactivated lead and instantly routes positive responses straight to the sales team — ensuring re-engaged leads are acted on the moment they show interest, not hours or days later.</p>' +
         '<h4>How It Works</h4>' +
