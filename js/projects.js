@@ -695,7 +695,7 @@
       id: "monday-file-upload-drive-sync",
       title: "monday.com File Upload → Google Drive Auto-Archive & Sync",
       category: "Ops Automation",
-      image: "images/monday.com File Upload Google Drive Auto-Archive & Sync.png",
+      image: "images/monday.com File Upload  Google Drive Auto-Archive & Sync.png",
       descriptionHtml:
         '<p>An n8n automation that automatically archives files uploaded to monday.com items into organized Google Drive folders, prevents duplicate folders and duplicate uploads, and writes the resulting Drive link back onto the board.</p>' +
         '<p>A supplier/procurement board on monday.com where each item can have files attached — invoices, spec sheets, product photos. Files uploaded to monday.com stay locked inside it with no easy way to back them up, browse them in bulk, or share a whole item&rsquo;s files as one link. This automation mirrors every upload into a structured Google Drive archive automatically, in real time.</p>' +
