@@ -1,487 +1,834 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>Oliver Sain — AI Automation Specialist &amp; Workflow Expert</title>
-    <meta name="description" content="AI automation specialist certified in n8n, Make.com and Zapier. 100+ projects across CRM automation, AI agents, chatbots and lead generation." />
+    <meta
+      name="description"
+      content="I build AI automations that stop lost leads, manual invoices and busywork. Certified in n8n, Make.com and Zapier. 100+ projects delivered."
+    />
     <meta name="author" content="Oliver Sain" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
-    <meta name="theme-color" content="#eef2f7" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1"
+    />
+    <meta name="theme-color" content="#070b1a" />
     <link rel="canonical" href="https://aiautoflow.online/" />
-
-    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Oliver Sain" />
-    <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="https://aiautoflow.online/" />
-    <meta property="og:title" content="Oliver Sain — AI Automation Specialist &amp; Workflow Expert" />
-    <meta property="og:description" content="AI automation specialist certified in n8n, Make.com and Zapier. 100+ projects across CRM automation, AI agents, chatbots and lead generation." />
-    <meta property="og:image" content="https://aiautoflow.online/images/ai-hero-network.png" />
-    <meta property="og:image:width" content="1536" />
-    <meta property="og:image:height" content="1024" />
-    <meta property="og:image:alt" content="AI automation hub connected to n8n, Make, Zapier, HubSpot and other tools" />
-
-    <!-- Twitter / X -->
+    <meta
+      property="og:title"
+      content="Oliver Sain — AI Automation Specialist &amp; Workflow Expert"
+    />
+    <meta
+      property="og:description"
+      content="AI automations that stop lost leads, manual invoices and busywork. 100+ projects delivered."
+    />
+    <meta
+      property="og:image"
+      content="https://aiautoflow.online/images/ai-hero-network.png"
+    />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Oliver Sain — AI Automation Specialist &amp; Workflow Expert" />
-    <meta name="twitter:description" content="AI automation specialist certified in n8n, Make.com and Zapier. 100+ projects across CRM automation, AI agents, chatbots and lead generation." />
-    <meta name="twitter:image" content="https://aiautoflow.online/images/ai-hero-network.png" />
-
-    <!-- Structured data -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://aiautoflow.online/#website",
-      "url": "https://aiautoflow.online/",
-      "name": "Oliver Sain — AI Automation Specialist",
-      "inLanguage": "en",
-      "publisher": {
-        "@id": "https://aiautoflow.online/#person"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://aiautoflow.online/#website",
+            "url": "https://aiautoflow.online/",
+            "name": "Oliver Sain — AI Automation Specialist",
+            "inLanguage": "en",
+            "publisher": {
+              "@id": "https://aiautoflow.online/#person"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://aiautoflow.online/#person",
+            "name": "Oliver Sain",
+            "url": "https://aiautoflow.online/",
+            "jobTitle": "AI Automation Specialist",
+            "image": "https://aiautoflow.online/images/profile.png",
+            "email": "mailto:oliversain1217@gmail.com",
+            "sameAs": ["https://www.linkedin.com/in/oliver-sain-038130435/"],
+            "knowsAbout": [
+              "n8n",
+              "Make.com",
+              "Zapier",
+              "GoHighLevel",
+              "HubSpot",
+              "Pipedrive",
+              "Monday.com",
+              "Airtable",
+              "AI agents",
+              "CRM automation",
+              "Chatbot development",
+              "Lead generation automation"
+            ]
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://aiautoflow.online/#service",
+            "name": "Oliver Sain — AI Automation Services",
+            "url": "https://aiautoflow.online/",
+            "image": "https://aiautoflow.online/images/ai-hero-network.png",
+            "description": "AI automation specialist certified in n8n, Make.com and Zapier. 100+ projects across CRM automation, AI agents, chatbots and lead generation.",
+            "provider": {
+              "@id": "https://aiautoflow.online/#person"
+            },
+            "areaServed": "Worldwide",
+            "serviceType": [
+              "Workflow Automation",
+              "AI Agent Development",
+              "CRM Integration",
+              "Chatbot Development",
+              "GoHighLevel Setup",
+              "Lead Generation Automation"
+            ]
+          }
+        ]
       }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://aiautoflow.online/#person",
-      "name": "Oliver Sain",
-      "url": "https://aiautoflow.online/",
-      "jobTitle": "AI Automation Specialist",
-      "image": "https://aiautoflow.online/images/profile.png",
-      "email": "mailto:oliversain1217@gmail.com",
-      "sameAs": [
-        "https://www.linkedin.com/in/oliver-sain-038130435/"
-      ],
-      "knowsAbout": [
-        "n8n",
-        "Make.com",
-        "Zapier",
-        "GoHighLevel",
-        "HubSpot",
-        "Pipedrive",
-        "Monday.com",
-        "Airtable",
-        "AI agents",
-        "CRM automation",
-        "Chatbot development",
-        "Lead generation automation"
-      ]
-    },
-    {
-      "@type": "ProfessionalService",
-      "@id": "https://aiautoflow.online/#service",
-      "name": "Oliver Sain — AI Automation Services",
-      "url": "https://aiautoflow.online/",
-      "image": "https://aiautoflow.online/images/ai-hero-network.png",
-      "description": "AI automation specialist certified in n8n, Make.com and Zapier. 100+ projects across CRM automation, AI agents, chatbots and lead generation.",
-      "provider": {
-        "@id": "https://aiautoflow.online/#person"
-      },
-      "areaServed": "Worldwide",
-      "serviceType": [
-        "Workflow Automation",
-        "AI Agent Development",
-        "CRM Integration",
-        "Chatbot Development",
-        "GoHighLevel Setup",
-        "Lead Generation Automation"
-      ]
-    }
-  ]
-}
     </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PCKYZCL0M0"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PCKYZCL0M0"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PCKYZCL0M0');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-PCKYZCL0M0");
     </script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-    <link rel="preload" as="image" href="images/ai-hero-network.png" fetchpriority="high" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+  <body>
+    <div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
 
-  <body><!--$-->
-    <div class="min-h-screen bg-background">
-      <header class="sticky top-0 z-50 bg-background/85 backdrop-blur-md">
-        <div class="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-4 sm:px-6"><a href="#top" class="min-w-0"><span class="nm-emboss block truncate font-display text-xl font-extrabold sm:text-2xl">Oliver Sain<span class="text-primary">.</span></span><span class="hidden text-[11px] font-medium tracking-wide text-ink-soft sm:block">AI AUTOMATION SPECIALIST</span></a>
-
-          <nav aria-label="Main" class="hidden items-center gap-2 lg:flex"><a href="#about" class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 nm-raised-sm text-ink hover:-translate-y-0.5">About</a><a href="#skills" class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 nm-raised-sm text-ink hover:-translate-y-0.5">Skills</a><a href="#services" class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 nm-raised-sm text-ink hover:-translate-y-0.5">Services</a><a href="#work" class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 nm-raised-sm text-ink hover:-translate-y-0.5">Work</a><a href="#process" class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 nm-raised-sm text-ink hover:-translate-y-0.5">Process</a><a href="#contact" class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 nm-raised-sm text-ink hover:-translate-y-0.5">Contact</a><a href="#contact" class="nm-accent ml-2 rounded-full px-5 py-2.5 text-sm font-bold">Hire Me</a></nav><button type="button" aria-label="Open menu" aria-expanded="false" class="nm-press grid size-11 shrink-0 place-items-center rounded-2xl lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
-              <path d="M4 5h16"></path>
-              <path d="M4 12h16"></path>
-              <path d="M4 19h16"></path>
-            </svg></button>
+    <div class="wrap">
+      <!-- NAVIGATION: sticky glass pill with anchor links and the audit button -->
+      <header>
+        <div class="nav glass">
+          <a href="#top" class="logo"
+            >Oliver Sain<small>AI automation specialist</small></a
+          >
+          <ul>
+            <li><a href="#problems">Problems I solve</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a
+            class="btn main"
+            href="https://calendly.com/zedsibal/oliver-calendar"
+            target="_blank"
+            rel="noopener"
+            >Book a free audit</a
+          >
         </div>
       </header>
-      <main>
+    </div>
 
-        <section id="top" class="mx-auto max-w-6xl px-4 pt-8 pb-10 sm:px-6 sm:pt-12">
-          <div class="grid items-center gap-12 lg:grid-cols-[1fr_1.05fr]">
-            <div style="transition-delay:0ms" class="reveal  min-w-0"><span class="nm-inset-sm inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-bold tracking-wide text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles" aria-hidden="true">
-                  <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path>
-                  <path d="M20 2v4"></path>
-                  <path d="M22 4h-4"></path>
-                  <circle cx="4" cy="20" r="2"></circle>
-                </svg> 100+ AUTOMATIONS DELIVERED</span>
-              <h1 class="mt-6 font-display text-4xl leading-[1.05] font-extrabold sm:text-5xl xl:text-6xl">I Automate Your <span class="text-primary">Business</span> with AI.</h1>
-              <p class="mt-5 max-w-xl text-base leading-relaxed text-ink-soft sm:text-lg">Certified in n8n, Make.com and Zapier. I design AI agents, CRM pipelines and chat bots that quietly run your lead capture, onboarding and sales ops — around the clock.</p>
-              <div class="mt-8 flex flex-wrap gap-4"><a href="https://calendly.com/zedsibal/oliver-calendar" target="_blank" rel="noopener noreferrer" class="nm-accent inline-flex items-center gap-2 rounded-2xl px-6 py-3.5 text-sm font-bold">Book a Free Automation Audit <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true">
-                    <path d="M5 12h14"></path>
-                    <path d="m12 5 7 7-7 7"></path>
-                  </svg></a><a href="#work" class="nm-press inline-flex items-center rounded-2xl px-6 py-3.5 text-sm font-bold">See My Work</a></div>
-            </div>
-            <div style="transition-delay:120ms" class="reveal  min-w-0"><img src="images/ai-hero-network.png" alt="Glowing AI Automation brain hub connected via neon circuit lines to Make, Zapier, n8n, ChatGPT, Claude, Gemini, HubSpot, Calendly, Slack, Stripe and other automation tools" width="1536" height="1024" fetchpriority="high" class="h-auto w-full rounded-3xl" /></div>
-          </div>
-        </section>
-
-        <section id="work" class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div style="transition-delay:0ms" class="reveal  ">
-            <h2 class="font-display text-3xl font-extrabold sm:text-4xl">Project Showcase</h2>
-            <p class="mt-3 max-w-2xl text-ink-soft">Real automation builds — workflow diagrams and architectures from delivered client projects. Click any project for the full case study.</p>
-          </div>
-          <div style="transition-delay:0ms" class="reveal  mt-8"><label for="project-search-input" class="block text-sm font-bold">Find the automation you need</label>
-            <div class="nm-inset-sm mt-2 flex items-center gap-3 rounded-2xl px-4 py-3"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search shrink-0 text-primary" aria-hidden="true">
-                <path d="m21 21-4.34-4.34"></path>
-                <circle cx="11" cy="11" r="8"></circle>
-              </svg><input id="project-search-input" type="search" placeholder="Try &quot;Shopify&quot;, &quot;CRM&quot;, &quot;Airtable&quot;, &quot;GoHighLevel&quot;…" class="w-full bg-transparent text-sm outline-none placeholder:text-ink-soft" /></div>
-            <p id="project-search-count" class="mt-2 text-xs text-ink-soft" style="display:none" aria-live="polite"></p>
-          </div>
-          <noscript><ul class="mt-6 list-disc pl-6 text-sm text-ink-soft"><li>AI-Powered Lead Research Machine — Google Maps Intelligence Module</li><li>AI-Generated Product Copy with Built-In Reliability: Shopify → AI → Human Review Queue</li><li>Feedback-Driven Regeneration: Guaranteeing Reviewer Notes Exist Before AI Runs Again</li><li>Closing the Loop: One-Click Approval That Safely Publishes AI Copy Back to Shopify</li><li>Appointment Confirmation + Reminder</li><li>Canceled Appointment SMS Follow-Up</li><li>Contact Responded to Follow-Up</li><li>Instagram Comment Automation</li><li>AI Voice Lead-Caller: Automated Outbound Calling Pipeline with Polling Architecture</li><li>AI Job Scraper &amp; Resume Optimizer: A Slack-Native Job Search Assistant</li><li>AI-Powered ASMR Video Generation &amp; Multi-Platform Auto-Publishing Pipeline</li><li>AI-Powered Facebook Messenger Chatbot with Calendar Booking</li><li>Automated Meme Collection &amp; Archiving Workflow</li><li>Multi-Channel AI Content Distribution Engine (Airtable + Gemini + JoggAI + Make.com)</li><li>Proposals, Contracts &amp; Invoices Generation — n8n Workflow</li><li>Automated Social Media Content Pipeline (Make.com + ChatGPT + Browse AI)</li><li>Shopify Dormant Customer Reactivation Automation (n8n)</li><li>Shopify Fulfillment &amp; Review Automation (n8n)</li><li>Shopify Low-Stock Supplier Reorder Automation (n8n)</li><li>Shopify Out-of-Stock Tagging &amp; Back-in-Stock Notification Automation (n8n)</li><li>Shopify VIP Loyalty Tier Automation (n8n)</li><li>Shopify Order Processing &amp; Fulfillment Operations Automation (n8n)</li><li>Instagram Interactive DM Workflow</li><li>Responded to Database Reactivation — AI-Powered Intent Detection</li><li>Lead Follow-Up System That Stops When They Reply</li><li>Lead Reactivation Workflow</li><li>Missed Call Text Back</li><li>monday.com File Upload → Google Drive Auto-Archive &amp; Sync</li><li>New Lead Automation (HVAC Service-Based Routing)</li><li>Order $50+ Reward – Auto Coupon on Qualifying Purchase</li><li>Shopify → Monday.com Order Automation</li><li>Shopify Abandoned Cart Recovery Automation (n8n)</li><li>Shopify Customer Sync &amp; Deduplication Automation (n8n)</li><li>AI-Powered HR Recruiting Automation: Job Posting to Candidate Evaluation &amp; Hiring Decision (n8n)</li><li>AI-Powered Invoice 3-Way Match Automation</li><li>Decision-Maker Contact Finder: Automated Franchise Contact Discovery</li><li>Enterprise Lead Capture &amp; CRM Automation</li><li>Franchise Lead Generation Automation: AI-Powered Franchise Company Finder &amp; Qualifier</li><li>Automated Invoice Management System</li><li>AI-Powered Review Escalation &amp; VIP Case Management — Judge.me Module</li><li>AI-Powered Support Email Escalation &amp; VIP Case Management — Gmail Module</li></ul></noscript>
-          <div id="project-grid" class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
-          <div id="see-all-projects-wrap" class="mt-10 flex justify-center" style="display:none"><button id="see-all-projects-btn" type="button" aria-haspopup="dialog" class="nm-accent inline-flex items-center gap-2 rounded-2xl px-6 py-3.5 text-sm font-bold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid" aria-hidden="true">
-                <rect width="7" height="7" x="3" y="3" rx="1"></rect>
-                <rect width="7" height="7" x="14" y="3" rx="1"></rect>
-                <rect width="7" height="7" x="14" y="14" rx="1"></rect>
-                <rect width="7" height="7" x="3" y="14" rx="1"></rect>
-              </svg> See All <span id="see-all-projects-count"></span> Projects</button></div>
-        </section>
-        <div id="all-projects-modal" class="project-modal-overlay" aria-hidden="true">
-          <div class="project-modal-panel all-projects-panel" role="dialog" aria-modal="true" aria-labelledby="all-projects-title"><button type="button" class="project-modal-close" data-modal-close aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg></button>
-            <h3 id="all-projects-title" class="project-modal-title" style="margin-top:0">All Projects</h3>
-            <p id="all-projects-count" class="mt-2 text-xs text-ink-soft" aria-live="polite"></p>
-            <div id="all-projects-grid" class="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+    <main id="top">
+      <!-- HERO BILLBOARD: content is filled in by js/main.js (slide data lives there) -->
+      <section
+        class="billboard"
+        id="billboard"
+        aria-roledescription="carousel"
+        aria-label="Business problems I automate"
+      >
+        <div class="bb-wash"></div>
+        <div
+          class="ghost"
+          id="bbList"
+          aria-label="Workflows that solve this problem"
+        ></div>
+        <img class="bb-img" id="bbImg" alt="" />
+        <div class="wrap bb-inner">
+          <div class="bb-left">
+            <h1 class="bb-tag">
+              Stop losing leads, hours and money to manual work.
+            </h1>
+            <div class="bb-copy" id="bbCopy"></div>
           </div>
         </div>
-        <div id="project-modal" class="project-modal-overlay" aria-hidden="true">
-          <div class="project-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button type="button" class="project-modal-close" data-modal-close aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M18 6 6 18"></path>
-                <path d="m6 6 12 12"></path>
-              </svg></button>
-            <div class="project-modal-image"><img id="modal-image" src="" alt="" /></div><span id="modal-category" class="project-modal-category"></span>
-            <h3 id="modal-title" class="project-modal-title"></h3>
-            <div id="modal-description" class="project-modal-body"></div>
+      </section>
+      <div class="wrap rail-wrap">
+        <button
+          type="button"
+          class="rnav prev"
+          id="rPrev"
+          aria-label="Previous workflow"
+        >
+          &#8249;
+        </button>
+        <div class="rail" id="rail" aria-label="Pick a problem"></div>
+        <button
+          type="button"
+          class="rnav next"
+          id="rNext"
+          aria-label="Next workflow"
+        >
+          &#8250;
+        </button>
+      </div>
+
+      <!-- PROBLEMS: each card fills the project search to show matching builds -->
+      <section id="problems">
+        <div class="wrap">
+          <h2>Which of these sounds like your week?</h2>
+          <p class="lead">Pick one to see the builds that solved it.</p>
+          <div class="grid g3">
+            <button class="problem glass" data-q="lead">
+              <b>Leads go cold</b>
+              <p>
+                Nobody follows up fast enough, or the follow-up keeps running
+                after they reply.
+              </p>
+              <em>See lead builds</em>
+            </button>
+            <button class="problem glass" data-q="invoice">
+              <b>Invoices eat hours</b>
+              <p>
+                Typing data from PDFs, chasing mismatches, catching duplicates
+                by eye.
+              </p>
+              <em>See invoice builds</em>
+            </button>
+            <button class="problem glass" data-q="shopify">
+              <b>The store runs on manual work</b>
+              <p>
+                Restocks, abandoned carts, VIP tiers and order updates done by
+                hand.
+              </p>
+              <em>See Shopify builds</em>
+            </button>
+            <button class="problem glass" data-q="escalation">
+              <b>Complaints get buried</b>
+              <p>
+                Bad reviews and angry emails sit unseen while the customer
+                leaves.
+              </p>
+              <em>See support builds</em>
+            </button>
+            <button class="problem glass" data-q="recruit">
+              <b>Hiring admin takes over</b>
+              <p>
+                Job posts, resume screening and decisions scattered across
+                tools.
+              </p>
+              <em>See hiring builds</em>
+            </button>
+            <button class="problem glass" data-q="monday">
+              <b>Tools don't talk to each other</b>
+              <p>
+                Data copied between your CRM, sheets and boards, and it goes
+                stale.
+              </p>
+              <em>See integration builds</em>
+            </button>
           </div>
         </div>
+      </section>
 
-        <section id="skills" class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div style="transition-delay:0ms" class="reveal  ">
-            <h2 class="font-display text-3xl font-extrabold sm:text-4xl">Certifications &amp; Stack</h2>
-            <p class="mt-3 max-w-2xl text-ink-soft">The platforms I build in daily — grouped by what they do for your business.</p>
+      <!-- PROJECTS: grid and modals are rendered by js/projects.js -->
+      <section id="work">
+        <div class="wrap">
+          <h2>Real builds from client projects</h2>
+          <p class="lead">
+            Each card is a delivered workflow. Open one for the problem, the
+            architecture and the tools.
+          </p>
+          <div class="tools">
+            <label class="search glass" for="project-search-input"
+              ><span aria-hidden="true">&#128269;</span
+              ><input
+                id="project-search-input"
+                type="search"
+                placeholder="Search: Shopify, CRM, invoices, GoHighLevel"
+                autocomplete="off"
+            /></label>
+            <button class="filter" data-q="">All</button
+            ><button class="filter" data-q="Sales Ops">Sales Ops</button
+            ><button class="filter" data-q="E-commerce">E-commerce</button
+            ><button class="filter" data-q="AI Agents">AI Agents</button
+            ><button class="filter" data-q="Ops Automation">Operations</button
+            ><button class="filter" data-q="Content Automation">Content</button>
           </div>
-          <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div style="transition-delay:0ms" class="reveal  ">
-              <div class="nm-raised h-full rounded-3xl p-6">
-                <h3 class="font-display text-sm font-bold tracking-wide text-primary uppercase">Automation Platforms</h3>
-                <ul class="mt-5 grid grid-cols-3 gap-4">
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">n8n</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/make/6D00CC" alt="Make.com logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Make.com</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/zapier/FF4F00" alt="Zapier logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Zapier</span></li>
-                </ul>
-              </div>
-            </div>
-            <div style="transition-delay:60ms" class="reveal  ">
-              <div class="nm-raised h-full rounded-3xl p-6">
-                <h3 class="font-display text-sm font-bold tracking-wide text-primary uppercase">CRM</h3>
-                <ul class="mt-5 grid grid-cols-3 gap-4">
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/hubspot/FF7A59" alt="HubSpot logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">HubSpot</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/pipedrive/017737" alt="Pipedrive logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Pipedrive</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><span aria-hidden="true" class="grid shrink-0 place-items-center rounded-md font-display font-bold text-primary-foreground" style="width:28px;height:28px;font-size:12.6px;background:#2E7DF7">GO</span><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">GoHighLevel</span></li>
-                </ul>
-              </div>
-            </div>
-            <div style="transition-delay:120ms" class="reveal  ">
-              <div class="nm-raised h-full rounded-3xl p-6">
-                <h3 class="font-display text-sm font-bold tracking-wide text-primary uppercase">Project Management</h3>
-                <ul class="mt-5 grid grid-cols-3 gap-4">
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/mondaydotcom/FF3D57" alt="Monday.com logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Monday.com</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/asana/F06A6A" alt="Asana logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Asana</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/notion/111111" alt="Notion logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Notion</span></li>
-                </ul>
-              </div>
-            </div>
-            <div style="transition-delay:180ms" class="reveal  ">
-              <div class="nm-raised h-full rounded-3xl p-6">
-                <h3 class="font-display text-sm font-bold tracking-wide text-primary uppercase">Web Dev</h3>
-                <ul class="mt-5 grid grid-cols-3 gap-4">
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/github/181717" alt="GitHub logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">GitHub</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/wordpress/21759B" alt="WordPress logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">WordPress</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><span aria-hidden="true" class="grid shrink-0 place-items-center rounded-md font-display font-bold text-primary-foreground" style="width:28px;height:28px;font-size:12.6px;background:#2E7DF7">GO</span><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">GoHighLevel</span></li>
-                </ul>
-              </div>
-            </div>
-            <div style="transition-delay:240ms" class="reveal  ">
-              <div class="nm-raised h-full rounded-3xl p-6">
-                <h3 class="font-display text-sm font-bold tracking-wide text-primary uppercase">Databases</h3>
-                <ul class="mt-5 grid grid-cols-3 gap-4">
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/airtable/18BFFF" alt="Airtable logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Airtable</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/supabase/3FCF8E" alt="Supabase logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">Supabase</span></li>
-                  <li class="nm-lift grid place-items-center gap-2 rounded-2xl p-3"><img src="https://cdn.simpleicons.org/openai/412991" alt="OpenAI logo" width="28" height="28" loading="lazy" decoding="async" class="shrink-0 object-contain" style="width:28px;height:28px" /><span class="w-full truncate text-center text-[11px] font-semibold text-ink-soft">OpenAI</span></li>
-                </ul>
-              </div>
-            </div>
+          <p
+            id="project-search-count"
+            style="display: none"
+            aria-live="polite"
+          ></p>
+          <div id="project-grid"></div>
+          <div id="see-all-projects-wrap" class="cta" style="display: none">
+            <button
+              id="see-all-projects-btn"
+              class="btn"
+              type="button"
+              aria-haspopup="dialog"
+            >
+              See all <span id="see-all-projects-count"></span> projects
+            </button>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section id="services" class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div style="transition-delay:0ms" class="reveal  ">
-            <h2 class="font-display text-3xl font-extrabold sm:text-4xl">Services</h2>
-            <p class="mt-3 max-w-2xl text-ink-soft">Fixed-scope builds or ongoing retainers — whatever fits your operation.</p>
+      <div
+        id="all-projects-modal"
+        class="project-modal-overlay"
+        aria-hidden="true"
+      >
+        <div
+          class="project-modal-panel all-projects-panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="all-projects-title"
+        >
+          <button
+            type="button"
+            class="project-modal-close"
+            data-modal-close
+            aria-label="Close"
+          >
+            &#10005;
+          </button>
+          <h3
+            id="all-projects-title"
+            class="project-modal-title"
+            style="margin-top: 0"
+          >
+            All projects
+          </h3>
+          <p id="all-projects-count" class="lead" aria-live="polite"></p>
+          <div id="all-projects-grid"></div>
+        </div>
+      </div>
+      <div id="project-modal" class="project-modal-overlay" aria-hidden="true">
+        <div
+          class="project-modal-panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
+        >
+          <button
+            type="button"
+            class="project-modal-close"
+            data-modal-close
+            aria-label="Close"
+          >
+            &#10005;
+          </button>
+          <div class="project-modal-image">
+            <img id="modal-image" src="" alt="" />
           </div>
-          <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div style="transition-delay:0ms" class="reveal  ">
-              <div class="nm-press h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-14 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-workflow text-primary" aria-hidden="true">
-                    <rect width="8" height="8" x="3" y="3" rx="2"></rect>
-                    <path d="M7 11v4a2 2 0 0 0 2 2h4"></path>
-                    <rect width="8" height="8" x="13" y="13" rx="2"></rect>
-                  </svg></span>
-                <h3 class="mt-5 font-display text-lg font-bold">Workflow Automation</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">End-to-end n8n, Make and Zapier builds that remove manual busywork from your daily operations.</p>
-              </div>
-            </div>
-            <div style="transition-delay:60ms" class="reveal  ">
-              <div class="nm-press h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-14 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bot text-primary" aria-hidden="true">
-                    <path d="M12 8V4H8"></path>
-                    <rect width="16" height="12" x="4" y="8" rx="2"></rect>
-                    <path d="M2 14h2"></path>
-                    <path d="M20 14h2"></path>
-                    <path d="M15 13v2"></path>
-                    <path d="M9 13v2"></path>
-                  </svg></span>
-                <h3 class="mt-5 font-display text-lg font-bold">AI Agent Development</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">Tool-using agents with memory that draft, decide, enrich and act inside your existing stack.</p>
-              </div>
-            </div>
-            <div style="transition-delay:120ms" class="reveal  ">
-              <div class="nm-press h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-14 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database text-primary" aria-hidden="true">
-                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                    <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
-                    <path d="M3 12A9 3 0 0 0 21 12"></path>
-                  </svg></span>
-                <h3 class="mt-5 font-display text-lg font-bold">CRM Integration</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">HubSpot, Pipedrive and GoHighLevel wired to your forms, calendars, billing and reporting.</p>
-              </div>
-            </div>
-            <div style="transition-delay:180ms" class="reveal  ">
-              <div class="nm-press h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-14 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-messages-square text-primary" aria-hidden="true">
-                    <path d="M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-                    <path d="M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1"></path>
-                  </svg></span>
-                <h3 class="mt-5 font-display text-lg font-bold">Chatbot Development</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">WhatsApp, Telegram and website bots that qualify leads and book calls while you sleep.</p>
-              </div>
-            </div>
-            <div style="transition-delay:240ms" class="reveal  ">
-              <div class="nm-press h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-14 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket text-primary" aria-hidden="true">
-                    <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
-                    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"></path>
-                    <path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"></path>
-                    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path>
-                  </svg></span>
-                <h3 class="mt-5 font-display text-lg font-bold">GoHighLevel Setup</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">Snapshots, pipelines, funnels and nurture sequences configured end-to-end for agencies.</p>
-              </div>
-            </div>
-            <div style="transition-delay:300ms" class="reveal  ">
-              <div class="nm-press h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-14 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-magnet text-primary" aria-hidden="true">
-                    <path d="m12 15 4 4"></path>
-                    <path d="M2.352 10.648a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l6.029-6.029a1 1 0 1 1 3 3l-6.029 6.029a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l6.365-6.367A1 1 0 0 0 8.716 4.282z"></path>
-                    <path d="m5 8 4 4"></path>
-                  </svg></span>
-                <h3 class="mt-5 font-display text-lg font-bold">Lead Gen Automation</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">Scraping, enrichment, scoring and outbound sequences that keep the pipeline permanently warm.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+          <span id="modal-category" class="project-modal-category"></span>
+          <h3 id="modal-title" class="project-modal-title"></h3>
+          <div id="modal-description" class="project-modal-body"></div>
+        </div>
+      </div>
 
-        <section id="about" class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div class="grid items-center gap-10 md:grid-cols-[auto_1fr]">
-            <div style="transition-delay:0ms" class="reveal  ">
-              <div class="nm-raised-lg mx-auto w-fit rounded-[2rem] p-4">
-                <div class="nm-inset overflow-hidden rounded-[1.5rem]"><img src="images/profile.png" alt="Oliver Sain, AI Automation Specialist &amp; Technical Virtual Assistant" width="540" height="720" loading="lazy" decoding="async" class="h-72 w-56 object-cover sm:h-96 sm:w-72" /></div>
+      <!-- PROCESS: five-step method -->
+      <!-- SERVICES: fixed-scope builds or retainers -->
+      <section id="services">
+        <div class="wrap">
+          <h2>Services</h2>
+          <p class="lead">
+            Fixed-scope builds or ongoing retainers, whatever fits your
+            operation.
+          </p>
+          <div class="grid g3">
+            <article class="svc glass">
+              <span class="ic"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect width="8" height="8" x="3" y="3" rx="2" />
+                  <path d="M7 11v4a2 2 0 0 0 2 2h4" />
+                  <rect width="8" height="8" x="13" y="13" rx="2" /></svg
+              ></span>
+              <h3>Workflow Automation</h3>
+              <p>
+                End-to-end n8n, Make and Zapier builds that remove manual
+                busywork from your daily operations.
+              </p>
+            </article>
+            <article class="svc glass">
+              <span class="ic"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 8V4H8" />
+                  <rect width="16" height="12" x="4" y="8" rx="2" />
+                  <path d="M2 14h2" />
+                  <path d="M20 14h2" />
+                  <path d="M15 13v2" />
+                  <path d="M9 13v2" /></svg
+              ></span>
+              <h3>AI Agent Development</h3>
+              <p>
+                Tool-using agents with memory that draft, decide, enrich and act
+                inside your existing stack.
+              </p>
+            </article>
+            <article class="svc glass">
+              <span class="ic"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+                  <path d="M3 12A9 3 0 0 0 21 12" /></svg
+              ></span>
+              <h3>CRM Integration</h3>
+              <p>
+                HubSpot, Pipedrive and GoHighLevel wired to your forms,
+                calendars, billing and reporting.
+              </p>
+            </article>
+            <article class="svc glass">
+              <span class="ic"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                  />
+                  <path
+                    d="M20 9a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1"
+                  /></svg
+              ></span>
+              <h3>Chatbot Development</h3>
+              <p>
+                WhatsApp, Telegram and website bots that qualify leads and book
+                calls while you sleep.
+              </p>
+            </article>
+            <article class="svc glass">
+              <span class="ic"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+                  <path
+                    d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"
+                  />
+                  <path
+                    d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"
+                  />
+                  <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></svg
+              ></span>
+              <h3>GoHighLevel Setup</h3>
+              <p>
+                Snapshots, pipelines, funnels and nurture sequences configured
+                end-to-end for agencies.
+              </p>
+            </article>
+            <article class="svc glass">
+              <span class="ic"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m12 15 4 4" />
+                  <path
+                    d="M2.352 10.648a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l6.029-6.029a1 1 0 1 1 3 3l-6.029 6.029a1.205 1.205 0 0 0 0 1.704l2.296 2.296a1.205 1.205 0 0 0 1.704 0l6.365-6.367A1 1 0 0 0 8.716 4.282z"
+                  />
+                  <path d="m5 8 4 4" /></svg
+              ></span>
+              <h3>Lead Gen Automation</h3>
+              <p>
+                Scraping, enrichment, scoring and outbound sequences that keep
+                the pipeline permanently warm.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="process">
+        <div class="wrap">
+          <h2>From messy process to running system</h2>
+          <div class="steps">
+            <div class="step glass">
+              <h3>Discovery</h3>
+              <p>
+                We map your current process, bottlenecks and tools in a short
+                working call.
+              </p>
+            </div>
+            <div class="step glass">
+              <h3>Build</h3>
+              <p>
+                I build the workflow with clear naming and documented logic.
+              </p>
+            </div>
+            <div class="step glass">
+              <h3>Test</h3>
+              <p>
+                Edge cases, retries and error branches are tested with real
+                data.
+              </p>
+            </div>
+            <div class="step glass">
+              <h3>Deploy</h3>
+              <p>
+                Go live with monitoring, alerting and a handover walkthrough
+                video.
+              </p>
+            </div>
+            <div class="step glass">
+              <h3>Support</h3>
+              <p>Ongoing tweaks and new automations as your business grows.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h2>What clients say</h2>
+          <div class="grid g3">
+            <figure class="quote glass">
+              <p>
+                Oliver helped us turn a time-consuming lead management process
+                into an automated workflow. Leads are now captured, organized,
+                enriched, and followed up with automatically. It has saved our
+                team hours every week and made our sales process much more
+                consistent.
+              </p>
+              <footer>
+                Balat S.<span>Founder, Growth Marketing Agency</span>
+              </footer>
+            </figure>
+            <figure class="quote glass">
+              <p>
+                The automation workflow Oliver built completely changed how we
+                manage our CRM. Instead of manually moving contacts, sending
+                follow-ups, and updating records, everything happens
+                automatically based on each customer's activity. The system is
+                reliable, organized, and easy for our team to use.
+              </p>
+              <footer>
+                DanDan S.<span
+                  >Operations Manager, Local Services Business</span
+                >
+              </footer>
+            </figure>
+            <figure class="quote glass">
+              <p>
+                Oliver understood the problem we were trying to solve and built
+                an AI-powered workflow around it. The automation handles
+                repetitive tasks that used to take hours, while still giving us
+                control when human input is needed. The result is a much faster
+                and more efficient process.
+              </p>
+              <footer>
+                Turyuk.<span>Business Owner, E-commerce Company</span>
+              </footer>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT: profile and certifications -->
+      <section id="about">
+        <div class="wrap">
+          <div class="about glass">
+            <img
+              src="images/profile.png"
+              alt="Oliver Sain, AI Automation Specialist"
+              loading="lazy"
+              width="220"
+              height="280"
+            />
+            <div>
+              <h2>About Oliver</h2>
+              <p>
+                I'm an AI automation specialist and technical virtual assistant
+                with 100+ completed projects. I build the machinery behind
+                growing businesses: lead capture, CRM automation, AI chat
+                agents, onboarding bots and sales reporting.
+              </p>
+              <p>
+                Certified in n8n, Make.com and Zapier, with end-to-end
+                GoHighLevel training. I work hands-on with HubSpot, Pipedrive,
+                monday.com, Asana, Notion, Airtable and Supabase, so your tools
+                stop living on separate islands.
+              </p>
+              <div class="stack">
+                <span class="glass">Certified n8n</span
+                ><span class="glass">Certified Make.com</span
+                ><span class="glass">Certified Zapier</span
+                ><span class="glass">GoHighLevel</span>
               </div>
             </div>
-            <div style="transition-delay:100ms" class="reveal  min-w-0">
-              <h2 class="font-display text-3xl font-extrabold sm:text-4xl">About Me</h2>
-              <p class="mt-4 leading-relaxed text-ink-soft">I&#x27;m <!-- -->Oliver Sain<!-- -->, an <!-- -->ai automation specialist &amp; technical virtual assistant<!-- --> with 100+ completed automation projects. I build the invisible machinery behind growing businesses — lead capture, CRM automation, AI chat agents, HR/IT onboarding bots, job-search pipelines, sales ops reporting and WhatsApp/Telegram bots.</p>
-              <p class="mt-4 leading-relaxed text-ink-soft">Certified in Make.com, Zapier and n8n, with end-to-end GoHighLevel training. I work hands-on with HubSpot, Pipedrive, Monday.com, Asana, Notion, Airtable and Supabase — so your tools stop living on separate islands.</p>
-              <ul class="mt-6 flex flex-wrap gap-3">
-                <li class="nm-raised-sm inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check text-primary" aria-hidden="true">
-                    <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg> <!-- -->Certified n8n</li>
-                <li class="nm-raised-sm inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check text-primary" aria-hidden="true">
-                    <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg> <!-- -->Certified Make.com</li>
-                <li class="nm-raised-sm inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check text-primary" aria-hidden="true">
-                    <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg> <!-- -->Certified Zapier</li>
-                <li class="nm-raised-sm inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check text-primary" aria-hidden="true">
-                    <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg> <!-- -->GoHighLevel</li>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS: platforms grouped by what they do for your business -->
+      <section id="skills">
+        <div class="wrap">
+          <h2>Certifications and stack</h2>
+          <p class="lead">
+            The platforms I build in daily, grouped by what they do for your
+            business.
+          </p>
+          <div class="grid g3">
+            <div class="skill glass">
+              <h3>Automation platforms</h3>
+              <ul class="logos">
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/n8n/EA4B71"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />n8n
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/make/6D00CC"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Make.com
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/zapier/FF4F00"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Zapier
+                </li>
+              </ul>
+            </div>
+            <div class="skill glass">
+              <h3>CRM</h3>
+              <ul class="logos">
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/hubspot/FF7A59"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />HubSpot
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/pipedrive/017737"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Pipedrive
+                </li>
+                <li>
+                  <span class="go" aria-hidden="true">GO</span>GoHighLevel
+                </li>
+              </ul>
+            </div>
+            <div class="skill glass">
+              <h3>Project management</h3>
+              <ul class="logos">
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/mondaydotcom/FF3D57"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Monday.com
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/asana/F06A6A"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Asana
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/notion/111111"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Notion
+                </li>
+              </ul>
+            </div>
+            <div class="skill glass">
+              <h3>Web dev</h3>
+              <ul class="logos">
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/github/181717"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />GitHub
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/wordpress/21759B"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />WordPress
+                </li>
+                <li>
+                  <span class="go" aria-hidden="true">GO</span>GoHighLevel
+                </li>
+              </ul>
+            </div>
+            <div class="skill glass">
+              <h3>Databases and AI</h3>
+              <ul class="logos">
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/airtable/18BFFF"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Airtable
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/supabase/3FCF8E"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />Supabase
+                </li>
+                <li>
+                  <img
+                    src="https://cdn.simpleicons.org/openai/412991"
+                    alt=""
+                    width="28"
+                    height="28"
+                    loading="lazy"
+                    onerror="this.style.display = 'none'"
+                  />OpenAI
+                </li>
               </ul>
             </div>
           </div>
-        </section>
-
-        <section id="process" class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div style="transition-delay:0ms" class="reveal  ">
-            <h2 class="font-display text-3xl font-extrabold sm:text-4xl">How I Work</h2>
-            <p class="mt-3 max-w-2xl text-ink-soft">Five steps from messy process to running system.</p>
-          </div>
-          <ol class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
-            <li style="transition-delay:0ms" class="reveal  ">
-              <div class="nm-lift h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-12 place-items-center rounded-2xl font-display text-sm font-extrabold text-primary">01</span>
-                <h3 class="mt-4 font-display text-base font-bold">Discovery</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">We map your current process, bottlenecks and tools in a short working call.</p>
-              </div>
-            </li>
-            <li style="transition-delay:70ms" class="reveal  ">
-              <div class="nm-lift h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-12 place-items-center rounded-2xl font-display text-sm font-extrabold text-primary">02</span>
-                <h3 class="mt-4 font-display text-base font-bold">Build</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">I architect and build the workflow, with clear naming and documented logic.</p>
-              </div>
-            </li>
-            <li style="transition-delay:140ms" class="reveal  ">
-              <div class="nm-lift h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-12 place-items-center rounded-2xl font-display text-sm font-extrabold text-primary">03</span>
-                <h3 class="mt-4 font-display text-base font-bold">Test</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">Edge cases, retries and error branches are stress-tested with real data.</p>
-              </div>
-            </li>
-            <li style="transition-delay:210ms" class="reveal  ">
-              <div class="nm-lift h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-12 place-items-center rounded-2xl font-display text-sm font-extrabold text-primary">04</span>
-                <h3 class="mt-4 font-display text-base font-bold">Deploy</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">Go live with monitoring, alerting and a handover walkthrough video.</p>
-              </div>
-            </li>
-            <li style="transition-delay:280ms" class="reveal  ">
-              <div class="nm-lift h-full rounded-3xl p-6"><span class="nm-inset-sm grid size-12 place-items-center rounded-2xl font-display text-sm font-extrabold text-primary">05</span>
-                <h3 class="mt-4 font-display text-base font-bold">Support</h3>
-                <p class="mt-2 text-sm leading-relaxed text-ink-soft">Ongoing tweaks, scaling and new automations as your business grows.</p>
-              </div>
-            </li>
-          </ol>
-        </section>
-
-        <section class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div style="transition-delay:0ms" class="reveal  ">
-            <h2 class="font-display text-3xl font-extrabold sm:text-4xl">Testimonials</h2>
-            <p class="mt-3 max-w-2xl text-ink-soft">What clients say about working with me.</p>
-          </div>
-          <div class="mt-10 grid gap-6 md:grid-cols-3">
-            <div style="transition-delay:0ms" class="reveal  ">
-              <figure class="nm-lift h-full rounded-3xl p-6"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote text-primary" aria-hidden="true">
-                  <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
-                  <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
-                </svg>
-                <span class="mt-4 block text-[11px] font-bold tracking-wide text-primary uppercase">01 — Sales &amp; Lead Automation</span><blockquote class="mt-2 text-sm leading-relaxed text-ink-soft">Oliver helped us turn a time-consuming lead management process into an automated workflow. Leads are now captured, organized, enriched, and followed up with automatically. It has saved our team hours every week and made our sales process much more consistent.</blockquote>
-                <figcaption class="mt-6 flex items-center gap-3"><span class="nm-inset-sm grid size-11 place-items-center rounded-xl font-display text-xs font-bold">BS</span><span class="min-w-0"><span class="block text-sm font-bold">Balat S.</span><span class="block text-xs text-ink-soft">Founder, Growth Marketing Agency</span></span></figcaption>
-              </figure>
-            </div>
-            <div style="transition-delay:70ms" class="reveal  ">
-              <figure class="nm-lift h-full rounded-3xl p-6"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote text-primary" aria-hidden="true">
-                  <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
-                  <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
-                </svg>
-                <span class="mt-4 block text-[11px] font-bold tracking-wide text-primary uppercase">02 — CRM &amp; Workflow Automation</span><blockquote class="mt-2 text-sm leading-relaxed text-ink-soft">The automation workflow Oliver built completely changed how we manage our CRM. Instead of manually moving contacts, sending follow-ups, and updating records, everything happens automatically based on each customer&#x27;s activity. The system is reliable, organized, and easy for our team to use.</blockquote>
-                <figcaption class="mt-6 flex items-center gap-3"><span class="nm-inset-sm grid size-11 place-items-center rounded-xl font-display text-xs font-bold">DS</span><span class="min-w-0"><span class="block text-sm font-bold">DanDan S.</span><span class="block text-xs text-ink-soft">Operations Manager, Local Services Business</span></span></figcaption>
-              </figure>
-            </div>
-            <div style="transition-delay:140ms" class="reveal  ">
-              <figure class="nm-lift h-full rounded-3xl p-6"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote text-primary" aria-hidden="true">
-                  <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
-                  <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path>
-                </svg>
-                <span class="mt-4 block text-[11px] font-bold tracking-wide text-primary uppercase">03 — AI-Powered Business Automation</span><blockquote class="mt-2 text-sm leading-relaxed text-ink-soft">Oliver understood the problem we were trying to solve and built an AI-powered workflow around it. The automation handles repetitive tasks that used to take hours, while still giving us control when human input is needed. The result is a much faster and more efficient process.</blockquote>
-                <figcaption class="mt-6 flex items-center gap-3"><span class="nm-inset-sm grid size-11 place-items-center rounded-xl font-display text-xs font-bold">T</span><span class="min-w-0"><span class="block text-sm font-bold">Turyuk.</span><span class="block text-xs text-ink-soft">Business Owner, E-commerce Company</span></span></figcaption>
-              </figure>
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div style="transition-delay:0ms" class="reveal  ">
-            <h2 class="font-display text-3xl font-extrabold sm:text-4xl">Let&#x27;s Automate Something</h2>
-            <p class="mt-3 max-w-2xl text-ink-soft">Tell me the process that&#x27;s eating your week. I&#x27;ll tell you how to automate it.</p>
-          </div>
-          <div class="mt-10 grid items-stretch gap-6 lg:grid-cols-[1.2fr_1fr]">
-            <div style="transition-delay:0ms" class="reveal  ">
-              <form class="nm-raised grid h-full gap-4 rounded-3xl p-6 sm:p-8">
-                <div class="grid gap-4 sm:grid-cols-2"><label class="grid gap-2 text-sm font-semibold">Name<input required="" class="nm-inset w-full rounded-2xl px-4 py-3 text-sm text-ink placeholder:text-ink-soft/70 outline-none" placeholder="Your name" name="name" /></label><label class="grid gap-2 text-sm font-semibold">Email<input required="" type="email" class="nm-inset w-full rounded-2xl px-4 py-3 text-sm text-ink placeholder:text-ink-soft/70 outline-none" placeholder="you@company.com" name="email" /></label></div><label class="grid gap-2 text-sm font-semibold">What do you want to automate?<textarea required="" name="message" rows="5" class="nm-inset w-full rounded-2xl px-4 py-3 text-sm text-ink placeholder:text-ink-soft/70 outline-none" placeholder="e.g. route inbound leads into HubSpot and follow up automatically"></textarea></label><button type="submit" class="nm-accent inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 text-sm font-bold disabled:opacity-80"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send" aria-hidden="true">
-                    <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
-                    <path d="m21.854 2.147-10.94 10.939"></path>
-                  </svg>Send Message</button>
-                <p aria-live="polite" class="text-xs text-ink-soft">Prefer instant? WhatsApp me and I usually reply within a few hours.</p>
-              </form>
-            </div>
-            <div style="transition-delay:90ms" class="reveal  ">
-              <div class="nm-raised h-full overflow-hidden rounded-3xl p-2 sm:p-3"><iframe src="https://calendly.com/zedsibal/oliver-calendar?hide_gdpr_banner=1&amp;background_color=eef2f7&amp;text_color=2b3245&amp;primary_color=5b9df9" title="Schedule a call with Oliver on Calendly" loading="lazy" class="h-full min-h-[420px] w-full rounded-2xl border-0"></iframe></div>
-            </div>
-          </div>
-          <div style="transition-delay:0ms" class="reveal  mt-10">
-            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-6"><a href="https://wa.me/639567383315" target="_blank" rel="noopener noreferrer" class="nm-press flex flex-col items-center gap-3 rounded-2xl p-5 text-center"><span class="nm-inset-sm grid size-11 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone text-primary" aria-hidden="true">
-                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
-                  </svg></span><span class="block text-xs font-semibold tracking-wide text-ink-soft uppercase">Phone / WhatsApp</span><span class="block w-full truncate text-sm font-bold">+63 956 738 3315</span></a><a href="mailto:oliversain1217@gmail.com" class="nm-press flex flex-col items-center gap-3 rounded-2xl p-5 text-center"><span class="nm-inset-sm grid size-11 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-primary" aria-hidden="true">
-                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
-                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                  </svg></span><span class="block text-xs font-semibold tracking-wide text-ink-soft uppercase">Email</span><span class="block w-full truncate text-sm font-bold">oliversain1217@gmail.com</span></a><a href="https://aiautoflow.online" target="_blank" rel="noopener noreferrer" class="nm-press flex flex-col items-center gap-3 rounded-2xl p-5 text-center"><span class="nm-inset-sm grid size-11 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe text-primary" aria-hidden="true">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-                    <path d="M2 12h20"></path>
-                  </svg></span><span class="block text-xs font-semibold tracking-wide text-ink-soft uppercase">Website</span><span class="block w-full truncate text-sm font-bold">aiautoflow.online</span></a><a href="https://www.linkedin.com/in/oliver-sain-038130435/" target="_blank" rel="noopener noreferrer" class="nm-press flex flex-col items-center gap-3 rounded-2xl p-5 text-center"><span class="nm-inset-sm grid size-11 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin text-primary" aria-hidden="true">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect width="4" height="12" x="2" y="9"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
-                  </svg></span><span class="block text-xs font-semibold tracking-wide text-ink-soft uppercase">LinkedIn</span><span class="block w-full truncate text-sm font-bold">View Profile</span></a><a href="https://www.upwork.com/freelancers/~01d2db88684bb2a839?mp_source=share" target="_blank" rel="noopener noreferrer" class="nm-press flex flex-col items-center gap-3 rounded-2xl p-5 text-center"><span class="nm-inset-sm grid size-11 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link text-primary" aria-hidden="true">
-                    <path d="M15 3h6v6"></path>
-                    <path d="M10 14 21 3"></path>
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                  </svg></span><span class="block text-xs font-semibold tracking-wide text-ink-soft uppercase">Upwork</span><span class="block w-full truncate text-sm font-bold">View Profile</span></a><a href="https://www.onlinejobs.ph/jobseekers/info/5363334" target="_blank" rel="noopener noreferrer" class="nm-press flex flex-col items-center gap-3 rounded-2xl p-5 text-center"><span class="nm-inset-sm grid size-11 place-items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link text-primary" aria-hidden="true">
-                    <path d="M15 3h6v6"></path>
-                    <path d="M10 14 21 3"></path>
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                  </svg></span><span class="block text-xs font-semibold tracking-wide text-ink-soft uppercase">OnlineJobs.ph</span><span class="block w-full truncate text-sm font-bold">View Profile</span></a></div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="mx-auto max-w-6xl px-4 pb-12 sm:px-6">
-        <div class="nm-raised grid grid-cols-1 items-center gap-6 rounded-3xl p-6 sm:grid-cols-[minmax(0,1fr)_auto]">
-          <div class="min-w-0"><span class="nm-emboss font-display text-lg font-extrabold">Oliver Sain<span class="text-primary">.</span></span>
-            <p class="mt-1 text-sm text-ink-soft">aiautoflow.online<!-- --> · © <!-- -->2026<!-- --> All rights reserved.</p>
-          </div>
-
-          <nav aria-label="Footer" class="flex flex-wrap gap-3"><a href="https://wa.me/639567383315" class="nm-press rounded-full px-4 py-2 text-sm font-semibold">WhatsApp</a><a href="mailto:oliversain1217@gmail.com" class="nm-press rounded-full px-4 py-2 text-sm font-semibold">Email</a><a href="https://www.linkedin.com/in/oliver-sain-038130435/" target="_blank" rel="noopener noreferrer" class="nm-press rounded-full px-4 py-2 text-sm font-semibold">LinkedIn</a><a href="https://www.upwork.com/freelancers/~01d2db88684bb2a839?mp_source=share" target="_blank" rel="noopener noreferrer" class="nm-press rounded-full px-4 py-2 text-sm font-semibold">Upwork</a><a href="https://www.onlinejobs.ph/jobseekers/info/5363334" target="_blank" rel="noopener noreferrer" class="nm-press rounded-full px-4 py-2 text-sm font-semibold">OLJ</a></nav>
         </div>
-      </footer>
-    </div><!--/$-->
-    <script src="js/projects.js"></script>
+      </section>
+
+      <!-- CONTACT: form, booking link and profiles -->
+      <section id="contact">
+        <div class="wrap">
+          <h2>Tell me the process that's eating your week</h2>
+          <p class="lead">
+            I'll tell you how to automate it. Prefer a call? Book a free audit
+            instead.
+          </p>
+          <div class="contact">
+            <form class="glass" id="form">
+              <div
+                class="grid"
+                style="grid-template-columns: 1fr 1fr; margin: 0"
+              >
+                <label
+                  >Name<input
+                    name="name"
+                    required
+                    placeholder="Your name" /></label
+                ><label
+                  >Email<input
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="you@company.com"
+                /></label>
+              </div>
+              <label
+                >What do you want to automate?<textarea
+                  name="msg"
+                  rows="5"
+                  required
+                  placeholder="e.g. send new HubSpot leads a follow-up and stop when they reply"
+                ></textarea>
+              </label>
+              <button
+                class="btn main"
+                type="submit"
+                style="justify-content: center"
+              >
+                Send message
+              </button>
+            </form>
+            <div class="links glass">
+              <a
+                href="https://calendly.com/zedsibal/oliver-calendar"
+                target="_blank"
+                rel="noopener"
+                >Book a free automation audit</a
+              >
+              <a
+                href="https://wa.me/639567383315"
+                target="_blank"
+                rel="noopener"
+                >WhatsApp +63 956 738 3315</a
+              >
+              <a href="mailto:oliversain1217@gmail.com"
+                >oliversain1217@gmail.com</a
+              >
+              <a
+                href="https://www.linkedin.com/in/oliver-sain-038130435/"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+              <a
+                href="https://www.upwork.com/freelancers/~01d2db88684bb2a839?mp_source=share"
+                target="_blank"
+                rel="noopener"
+                >Upwork</a
+              >
+              <a
+                href="https://www.onlinejobs.ph/jobseekers/info/5363334"
+                target="_blank"
+                rel="noopener"
+                >OnlineJobs.ph</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="site">
+      <div class="wrap">Oliver Sain · aiautoflow.online · © 2026</div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/projects.js" defer></script>
   </body>
 </html>
